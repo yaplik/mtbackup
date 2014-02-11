@@ -34,3 +34,10 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Others
+*~
+/sshkey
+/sshkey.pub
+*.log
+*.swp
