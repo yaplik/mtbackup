@@ -51,3 +51,10 @@ Arguments
       -a          accept all ssh server keys
       -s          skip backup command (run it via ros scheduler)
       -d          log debug info into ssh.log
+
+Notes
+-----
+
+Importing ssh key disables ssh login via password. To reenable, use:
+
+    /ip ssh set always-allow-password-login=yes
